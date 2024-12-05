@@ -22,6 +22,12 @@ function changeColor() {
         changeColor.style.backgroundColor = 'wheat';
     } 
 }
+// ==> cretive mode
+let color01 = document.querySelector('.green')
+let bodyy = document.querySelector('body')
+color01.addEventListener('onclick', function () {
+    bodyy.style.backgroundColor = rgb(199, 234, 197)
+})
 
 // exercice 02 ==> function 02
 function alertFn() {
