@@ -29,7 +29,9 @@ function alertFn() {
 }
 
 // 3. Afficher la position de la souris sur la page en temps réel.
-document.addEventListener('mousemove', function (event) {
+
+let divLocation = document.getElementById('x3')
+x3.addEventListener('mousemove', function (event) {
     const x = event.clientX
     const y = event.clientY
 
