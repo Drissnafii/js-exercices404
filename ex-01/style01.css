@@ -1,0 +1,19 @@
+*{
+    margin: 1rem;
+    padding: 1rem;
+}
+
+header {
+    background-color: gray;
+    position: absolute;
+    top: 0;
+}
+
+#colorMain {
+    background-color: gray;
+    height: 30vh;
+}
+
+footer {
+    background-color: rgb(145, 199, 124);
+}
