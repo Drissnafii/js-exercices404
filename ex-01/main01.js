@@ -46,3 +46,10 @@ x3.addEventListener('mousemove', function (event) {
 
 // 4. Créer une boîte modale qui s'affiche et se ferme avec un bouton.
 
+let modal = document.getElementById("buttonModal");
+
+let btn = document.getElementById("myBtn");
+
+let span = document.getElementsByClassName("close")[0];
+
+
